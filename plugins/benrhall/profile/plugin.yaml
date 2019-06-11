@@ -1,0 +1,6 @@
+plugin:
+    name: 'benrhall.profile::lang.plugin.name'
+    description: 'benrhall.profile::lang.plugin.description'
+    author: benrhall
+    icon: oc-icon-users
+    homepage: ''
