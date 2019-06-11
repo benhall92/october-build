@@ -18,14 +18,14 @@ class Plugin extends PluginBase
     	UsersController::extendFormFields(function($form, $model, $context){
     		$form->addTabFields([
     			'contact_number' => [
-    				'label' => 'Contact Number'
+    				'label' => 'Contact Number',
     				'type' => 'text',
-    				'tab' => 'Profile'
+    				'tab' => 'Profile',
     			],
     			'job_role' => [
-    				'label' => 'Job Role'
+    				'label' => 'Job Role',
     				'type' => 'text',
-    				'tab' => 'Profile'
+    				'tab' => 'Profile',
     			]
     		]);
     	});
